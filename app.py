@@ -12,7 +12,7 @@ st.title("📊 Customer Segmentation & Churn Pattern Analytics in European Banki
 st.markdown("This interactive dashboard highlights churn patterns, customer segmentation, and predictive insights across European banking customers.")
 
 # Load dataset (Excel format)
-df = pd.read_excel("data/European_Bank.xlsx")
+df = pd.read_excel("European_Bank.xlsx")
 
 
 # Sidebar filters
@@ -101,7 +101,7 @@ import pandas as pd
 st.header("Data Readiness & Validation")
 
 # Load dataset
-df = pd.read_excel("data/European_Bank.xlsx")
+df = pd.read_excel("European_Bank.xlsx")
 
 # Perform validation checks (internal, not shown directly)
 overall_churn_rate = df["Exited"].mean() * 100
